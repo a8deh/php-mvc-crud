@@ -6,7 +6,7 @@ class HomeController extends Controller
 {
     public function index()
     {
-        $data = ["name"=>"mostafa mahfouz"];
+        $data = ["name"=>"abdelhadi haddadi"];
         $this->view('home',$data);
     }
 }
